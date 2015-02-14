@@ -1,0 +1,16 @@
+{
+    "contents" : "stocks_rawdata <- data.frame(eval(parse(text=substring(getURL(URLencode('http://129.152.144.84:5001/rest/native/?query=\"select * from stocksofdogs order by DAYS\"'), httpheader=c(DB='jdbc:oracle:thin:@129.152.144.84:1521:ORCL', USER='C##cs329e_mks2426', PASS='orcl_mks2426', MODE='native_mode', MODEL='model', returnFor = 'R', returnDimensions = 'False'), verbose = TRUE), 1, 2^31-1))))\n\n",
+    "created" : 1423938971970.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4282873456",
+    "id" : "DF3FDF27",
+    "lastKnownWriteTime" : 1423938666,
+    "path" : "~/DataVisualization/DV_RProject2/01 Data/LoadCSV.R",
+    "project_path" : "01 Data/LoadCSV.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

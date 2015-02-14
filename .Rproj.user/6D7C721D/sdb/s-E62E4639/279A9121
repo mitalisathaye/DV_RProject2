@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1423938538425.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "279A9121",
+    "lastKnownWriteTime" : 4315614208,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "stocks_rawdata",
+        "contentUrl" : "content?title=stocks_rawdata&file=5cc7fe973942428b93fd61cd2859e690.htm",
+        "displayedObservations" : "504",
+        "displayedVariables" : 8,
+        "totalObservations" : "504",
+        "variables" : "8"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,17 @@
+{
+    "contents" : "library(\"RCurl\", lib.loc=\"/Library/Frameworks/R.framework/Versions/3.1/Resources/library\")\nlibrary(\"reshape2\", lib.loc=\"/Library/Frameworks/R.framework/Versions/3.1/Resources/library\")\nlibrary(\"grid\", lib.loc=\"/Library/Frameworks/R.framework/Versions/3.1/Resources/library\")\nlibrary(\"gplots\", lib.loc=\"/Library/Frameworks/R.framework/Versions/3.1/Resources/library\")\nlibrary(\"plyr\", lib.loc=\"/Library/Frameworks/R.framework/Versions/3.1/Resources/library\")\nlibrary(\"ggplot2\", lib.loc=\"/Library/Frameworks/R.framework/Versions/3.1/Resources/library\")\nlibrary(\"grid\", lib.loc=\"/Library/Frameworks/R.framework/Versions/3.1/Resources/library\")\nlibrary(\"reshape2\", lib.loc=\"/Library/Frameworks/R.framework/Versions/3.1/Resources/library\")\nlibrary(\"rstudio\", lib.loc=\"/Library/Frameworks/R.framework/Versions/3.1/Resources/library\")\nlibrary(\"tableplot\", lib.loc=\"/Library/Frameworks/R.framework/Versions/3.1/Resources/library\")\nlibrary(\"tidyr\", lib.loc=\"/Library/Frameworks/R.framework/Versions/3.1/Resources/library\")\nlibrary(\"dplyr\", lib.loc=\"/Library/Frameworks/R.framework/Versions/3.1/Resources/library\")\n\n\n\n",
+    "created" : 1423938157866.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "15165646",
+    "id" : "7B42A786",
+    "lastKnownWriteTime" : 1423938406,
+    "path" : "~/DataVisualization/DV_RProject2/.rProfile",
+    "project_path" : ".rProfile",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
