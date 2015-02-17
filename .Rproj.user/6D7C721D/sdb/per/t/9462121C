@@ -1,0 +1,17 @@
+{
+    "contents" : "Reproducing Project 2\n------------------------\n**By: Mitali Sathaye and Saqib Ali**\n\n\nLoad Packages\n------\n```{r}\nsource(\"../.rProfile\", echo = FALSE)\n```\n\nLoad Miles Per Gallon Database\n-------\nThis database includes the most popular car manufactureres during the years 1999 and 2008. This dataset includes variables includeing cylinders, class type, city and highway mpg and type of wheel drive.\n\n```{r}\nsource(\"../01 Data/LoadCSV.R\", echo = TRUE)\n```\n\nAverage MPG for Car Classes Over Time\n-------\nFor this analysis we wanted to understand how different classes of cars became more or less fuel effecient between 1999 and 2008. This graph also shows you where each manufacturer ranks in each class of cars. For example, in the subcompact category Audi was the fuel effeciency leader in 1999 but in 2008 lost the position Honda.\n\n```{r}\nsource(\"../02 Data Wrangling/carclasstrends.R\", echo = TRUE)\nsource(\"../03 Visualizations/graphofcarclasstrends.R\", echo = TRUE)\n```\n\nChange in Average MPG per Car Manufacturer Over Time\n--------\nFor this analysis we determined how each brand's fuel effeciency changed betweeen the years 1999 and 2008. Companies like Nissan, Lincoln, and Toyota saw increases in average MPG.\n\n```{r}\nsource(\"../02 Data Wrangling/changeovertime.R\", echo = TRUE)\nsource(\"../03 Visualizations/graphofchangeovertime.R\", echo = TRUE)\n```\n\nBest 4-Cylinder, Forward-Wheel Drive Car Manufacturer of 2008\n-------\nThis type of analysis would be useful for someone that was looking for the best fuel efficient manufacturer in 2008 given that they wanted a 4-cylinder, forward-wheel drive. According to the data, Honda was the market leader in this search.\n\n```{r}\nsource(\"../02 Data Wrangling/milesacc2cylinder.R\", echo = TRUE)\nsource(\"../03 Visualizations/graphofmilesacc2cylinder.R\", echo = TRUE)\n```\n\n\n",
+    "created" : 1423936831981.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1941767568",
+    "id" : "9462121C",
+    "lastKnownWriteTime" : 1424144831,
+    "path" : "~/DataVisualization/DV_RProject2/00 Doc/Knitter.Rmd",
+    "project_path" : "00 Doc/Knitter.Rmd",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}

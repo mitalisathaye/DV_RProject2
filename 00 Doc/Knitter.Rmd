@@ -1,20 +1,47 @@
 Reproducing Project 2
 ------------------------
-By: Mitali Sathaye and Saqib Ali
+**By: Mitali Sathaye and Saqib Ali**
 
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+Load Packages
+------
+```{r}
+source("../.rProfile", echo = FALSE)
+```
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+Load Miles Per Gallon Database
+-------
+This database includes the most popular car manufactureres during the years 1999 and 2008. This dataset includes variables includeing cylinders, class type, city and highway mpg and type of wheel drive.
 
 ```{r}
-summary(cars)
+source("../01 Data/LoadCSV.R", echo = TRUE)
 ```
 
-You can also embed plots, for example:
+Average MPG for Car Classes Over Time
+-------
+For this analysis we wanted to understand how different classes of cars became more or less fuel effecient between 1999 and 2008. This graph also shows you where each manufacturer ranks in each class of cars. For example, in the subcompact category Audi was the fuel effeciency leader in 1999 but in 2008 lost the position Honda.
 
-```{r, echo=FALSE}
-plot(cars)
+```{r}
+source("../02 Data Wrangling/carclasstrends.R", echo = TRUE)
+source("../03 Visualizations/graphofcarclasstrends.R", echo = TRUE)
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Change in Average MPG per Car Manufacturer Over Time
+--------
+For this analysis we determined how each brand's fuel effeciency changed betweeen the years 1999 and 2008. Companies like Nissan, Lincoln, and Toyota saw increases in average MPG.
+
+```{r}
+source("../02 Data Wrangling/changeovertime.R", echo = TRUE)
+source("../03 Visualizations/graphofchangeovertime.R", echo = TRUE)
+```
+
+Best 4-Cylinder, Forward-Wheel Drive Car Manufacturer of 2008
+-------
+This type of analysis would be useful for someone that was looking for the best fuel efficient manufacturer in 2008 given that they wanted a 4-cylinder, forward-wheel drive. According to the data, Honda was the market leader in this search.
+
+```{r}
+source("../02 Data Wrangling/milesacc2cylinder.R", echo = TRUE)
+source("../03 Visualizations/graphofmilesacc2cylinder.R", echo = TRUE)
+```
+
+
